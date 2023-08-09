@@ -1,0 +1,226 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+
+    font-family: sans-serif;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    /* background: white; */
+    color: black;
+
+}
+
+.logo {
+    font-size: 2em;
+    letter-spacing: 2px;
+    color: orange;
+    float: left;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+
+}
+
+.menu a:hover {
+    background-color: orange;
+    transition: 0.4s;
+}
+
+.register-button a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: red;
+    transition: 0.4s;
+
+}
+
+.register-button a:hover {
+    background: transparent;
+    border: 1px solid indianred;
+}
+
+.h-text h1 {
+    font-size: 70px;
+    margin-top: -300px;
+    position: relative;
+
+}
+
+.para {
+    margin-top: 20px;
+}
+
+.h-text a {
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    transition: 0.4s;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.h-text a:hover {
+    background: transparent;
+    border: 1px solid indianred;
+}
+
+.h-text button {
+    height: 50px;
+    background-color: #0f876c;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+    padding: 0 40px;
+    cursor: pointer;
+}
+
+
+.h-text h6 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../images/background-1img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow-x: hidden;
+}
+
+.centerSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+header .logo img {
+    width: 200px
+}
+
+.register-button select {
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+
+.register-button {
+    float: right;
+}
+
+header {
+    padding: 20px 200px 10px 100px
+}
+
+.centerSection p {
+    margin-top: 20px;
+}
+
+.serviceSection {
+    display: flex;
+    padding: 0 200px;
+    flex-wrap: wrap;
+}
+
+.serviceSection .imgDiv,
+.serviceSection .servDiv {
+    width: 50%;
+    margin-bottom: 100px;
+}
+
+.vpnButton {
+    height: 50px;
+    background-color: #0f876c;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+    padding: 0 40px;
+    cursor: pointer;
+    margin-top: 30px
+}
+
+h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.protectionSection {
+    display: flex;
+    padding: 0 200px;
+    flex-wrap: wrap;
+}
+
+.protectionSection .cirDiv {
+    width: 33%;
+    margin-bottom: 100px;
+}
+
+.mapSection {
+    margin-top: 50px;
+    padding: 100px 0;
+    background-color: #fcf3f4;
+}
+
+.mapDiv {
+    display: flex;
+
+    flex-wrap: wrap;
+}
+
+.mapDiv .map70 {
+    width: 70%;
+}
+
+.mapDiv .map30 {
+    width: 30%;
+}
+
+.map30 h1 {
+    font-size: 70px;
+}
+
+.map30 p {
+    margin-bottom: 40px;
+}
+
+.mapSection .mapDiv+p {
+    margin-top: 50px;
+
+}
+
+.text-green {
+    color: #0f876c
+}
